@@ -1,0 +1,11 @@
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.pt
+*.onnx
+runs/
+.venv/
+__pycache__/
+*.db
+.ipynb_checkpoints/
