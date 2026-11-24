@@ -1,0 +1,14 @@
+# Made by src/make_splits.py with dedup rule dup_px0.25
+train: splits/train.txt
+val: splits/val.txt
+test: splits/test.txt
+nc: 8
+names:
+- blue-vacum
+- broom
+- container
+- dustpan
+- fiber-mop
+- person
+- robot1
+- trash
